@@ -1,0 +1,218 @@
+{
+  "section": "EL3",
+  "title": "Introduction to Logarithms",
+  "learningObjective": "Convert between exponential and logarithmic form. Evaluate a logarithmic function, including common and natural logarithms.",
+  "faqs": [
+    {
+      "id": "faq-1",
+      "category": "conceptual",
+      "question": "What is a logarithm, and what question is it actually asking?",
+      "answer": "A logarithm answers the question \"what exponent do I need?\" Specifically, log_b(x) asks: \"what power do I have to raise b to, in order to get x?\" The logarithm itself IS that exponent — the answer to the question, not some new separate operation you need to memorize from scratch.<div class=\"example-box\"><div class=\"label\">Example</div><p class=\"math-line\">\\( \\log_2(8) \\) asks: \"2 raised to what power gives 8?\"</p><p class=\"math-line\">Since \\( 2^3=8 \\), the answer is \\( \\log_2(8)=3 \\).</p></div>"
+    },
+    {
+      "id": "faq-2",
+      "category": "conceptual",
+      "question": "What is the relationship between logarithmic form and exponential form?",
+      "answer": "Every logarithmic equation has an exponential twin that says the exact same thing in different words — they're two notations for one relationship. The base stays the base in both forms; the logarithm's answer becomes the exponent.<div class=\"graph-wrap\"><svg viewBox=\"0 0 340 130\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"20\" y=\"45\" font-size=\"18\" fill=\"#0a3f52\" font-weight=\"700\">log</text><text x=\"53\" y=\"52\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">b</text><text x=\"63\" y=\"45\" font-size=\"18\" fill=\"#0a3f52\" font-weight=\"700\">(x) = y</text><path d=\"M 60 60 Q 170 100 280 60\" fill=\"none\" stroke=\"#1a6b6b\" stroke-width=\"2\" marker-end=\"url(#arrowLog)\"/><text x=\"150\" y=\"100\" font-size=\"11\" fill=\"#1a6b6b\" font-weight=\"600\">same relationship</text><text x=\"230\" y=\"45\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">b</text><text x=\"245\" y=\"38\" font-size=\"12\" fill=\"#0a3f52\" font-weight=\"700\">y</text><text x=\"255\" y=\"45\" font-size=\"18\" fill=\"#0a3f52\" font-weight=\"700\"> = x</text><defs><marker id=\"arrowLog\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#1a6b6b\"/></marker></defs></svg></div><p class=\"graph-caption\">log_b(x) = y and b^y = x say exactly the same thing, just arranged differently.</p><div class=\"example-box\"><div class=\"label\">Formula</div><p class=\"math-line\">\\[ \\log_b(x) = y \\iff b^y = x \\]</p><p class=\"math-line\" style=\"margin-top:0.5rem;\">(valid whenever \\( b>0 \\) and \\( b \\neq 1 \\))</p></div>"
+    },
+    {
+      "id": "faq-3",
+      "category": "conceptual",
+      "question": "What is a common logarithm, and why is it written without a base?",
+      "answer": "A common logarithm is a logarithm with base 10 — it comes up often enough that mathematicians agreed to drop the base entirely rather than write it every time. So log(x), with no base written, always means log₁₀(x).<div class=\"example-box\"><div class=\"label\">Notation</div><p class=\"math-line\">\\[ \\log_{10}(x) = \\log(x) \\]</p></div>"
+    },
+    {
+      "id": "faq-4",
+      "category": "conceptual",
+      "question": "What is a natural logarithm, and why does it use the special notation ln?",
+      "answer": "A natural logarithm is a logarithm with base e (the same special constant from EL1). It's so common — especially once you reach calculus — that it gets its own unique notation, ln(x), instead of writing log_e(x) every time.<div class=\"example-box\"><div class=\"label\">Notation</div><p class=\"math-line\">\\[ \\log_{e}(x) = \\ln(x) \\]</p></div>"
+    },
+    {
+      "id": "faq-5",
+      "category": "conceptual",
+      "question": "How are logarithms and exponential functions related as inverses?",
+      "answer": "A logarithmic function undoes exactly what an exponential function does, in the same sense you learned in FN6 — plug an exponential's output into its matching logarithm, and you get back the original input. Because of this inverse relationship, the domain and range swap between the two: an exponential function's range, (0, ∞), becomes the logarithm's domain, and the exponential's domain, all real numbers, becomes the logarithm's range."
+    },
+    {
+      "id": "faq-6",
+      "category": "sticking-points",
+      "question": "How do I convert an equation from logarithmic form to exponential form?",
+      "answer": "Identify the base, the logarithm's answer (which becomes the new exponent), and the argument (which becomes the result). Then rewrite using \\( b^y=x \\).<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Convert \\( \\log_5(25)=2 \\) to exponential form.</p><p class=\"math-line\">Base: 5 &nbsp;&nbsp; Answer/exponent: 2 &nbsp;&nbsp; Argument/result: 25</p><p class=\"math-line\" style=\"margin-top:0.5rem;\">\\( 5^2=25 \\)</p></div>"
+    },
+    {
+      "id": "faq-7",
+      "category": "sticking-points",
+      "question": "How do I convert an equation from exponential form to logarithmic form?",
+      "answer": "Same process, run in reverse: identify the base, the exponent (which becomes the logarithm's answer), and the result (which becomes the argument). Then rewrite using \\( \\log_b(x)=y \\).<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Convert \\( 3^4=81 \\) to logarithmic form.</p><p class=\"math-line\">Base: 3 &nbsp;&nbsp; Exponent/answer: 4 &nbsp;&nbsp; Result/argument: 81</p><p class=\"math-line\" style=\"margin-top:0.5rem;\">\\( \\log_3(81)=4 \\)</p></div>"
+    },
+    {
+      "id": "faq-8",
+      "category": "sticking-points",
+      "question": "How do I evaluate a logarithm by inspection, without a calculator?",
+      "answer": "Ask yourself faq-1's question directly: \"what power do I raise the base to, to get this argument?\" If you can answer that in your head (or with a little trial and error), you don't need a calculator at all.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Evaluate \\( \\log_4\\left(\\dfrac{1}{64}\\right) \\).</p><p class=\"math-line\">Ask: \"4 to what power gives 1/64?\"</p><p class=\"math-line\">Since \\( 4^{-3}=\\dfrac{1}{64} \\), the answer is \\( -3 \\).</p></div>"
+    },
+    {
+      "id": "faq-9",
+      "category": "sticking-points",
+      "question": "How do I evaluate a logarithm that results in a negative number?",
+      "answer": "This happens whenever the argument is a fraction between 0 and 1 — remember from EL1 that a negative exponent produces a reciprocal (a fraction), so working backward, a fractional argument means the answer (the exponent) has to be negative. This is completely normal and doesn't mean you made a mistake."
+    },
+    {
+      "id": "faq-10",
+      "category": "sticking-points",
+      "question": "How do I evaluate a common or natural logarithm using a calculator?",
+      "answer": "Use the LOG button for common (base 10) logarithms, or the LN button for natural (base e) logarithms — both are standard on any scientific or graphing calculator. Type the argument, and the calculator returns a decimal approximation, since most logarithm values aren't clean whole numbers.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">\\( \\log(50) \\approx 1.699 \\) &nbsp;&nbsp; \\( \\ln(50) \\approx 3.912 \\)</p></div>"
+    },
+    {
+      "id": "faq-11",
+      "category": "sticking-points",
+      "question": "Why must the argument of a logarithm always be positive?",
+      "answer": "Because a logarithm's domain is the range of its inverse exponential function (faq-5), and an exponential function's output is always positive — it never reaches zero or goes negative. Since the logarithm can only accept, as input, whatever the exponential function could ever output, the argument of a logarithm is restricted to positive numbers only."
+    },
+    {
+      "id": "faq-12",
+      "category": "sticking-points",
+      "question": "How do I find the domain of a logarithmic function like log₃(2x − 4)?",
+      "answer": "Set the argument (everything inside the logarithm) greater than zero, then solve the resulting inequality for x.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find the domain of \\( \\log_3(2x-4) \\).</p><p class=\"math-line\">Set up the inequality: \\( 2x-4 > 0 \\)</p><p class=\"math-line\">Solve: \\( 2x>4 \\) &rarr; \\( x>2 \\)</p><p class=\"math-line\" style=\"margin-top:0.5rem;\">Domain: \\( (2,\\infty) \\)</p></div>"
+    },
+    {
+      "id": "faq-13",
+      "category": "connections",
+      "question": "How does the domain and range of a logarithmic function connect to what we learned about inverse functions in FN6?",
+      "answer": "This is FN6's domain/range swap rule (faq-6 from that section), applied directly: since logarithmic and exponential functions are inverses of each other, whatever was the exponential function's domain becomes the logarithm's range, and whatever was the exponential function's range becomes the logarithm's domain. Nothing new to learn here — just the same inverse-function rule from FN6, applied to this specific pair of functions."
+    },
+    {
+      "id": "faq-14",
+      "category": "connections",
+      "question": "Why do logarithms matter beyond solving exponential equations?",
+      "answer": "Logarithms show up anywhere a quantity spans an enormous range of scale and needs to be compressed into something readable — the Richter scale for earthquakes, decibels for sound, pH for acidity, and star brightness in astronomy are all logarithmic scales. They're also the essential tool for actually solving for a variable that's trapped in an exponent — which becomes one of the most common tasks in the rest of this unit."
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid-1",
+      "title": "Write Logarithmic Equations as Exponential Equations",
+      "url": "https://youtu.be/q9_s0wqhIXU",
+      "description": "Worked examples converting logarithmic equations into their equivalent exponential form.",
+      "category": "converting-forms",
+      "relatedFaqs": [
+        "faq-2",
+        "faq-6"
+      ]
+    },
+    {
+      "id": "vid-2",
+      "title": "Write Exponential Equations as Logarithmic Equations",
+      "url": "https://youtu.be/9_GPPUWEJQQ",
+      "description": "Worked examples converting exponential equations into their equivalent logarithmic form.",
+      "category": "converting-forms",
+      "relatedFaqs": [
+        "faq-2",
+        "faq-7"
+      ]
+    },
+    {
+      "id": "vid-3",
+      "title": "Evaluate Logarithms Without a Calculator — Whole Numbers",
+      "url": "https://youtu.be/dxj5J9OpWGA",
+      "description": "Evaluating logarithms by inspection, asking what exponent produces the given argument.",
+      "category": "evaluating",
+      "relatedFaqs": [
+        "faq-1",
+        "faq-8"
+      ]
+    },
+    {
+      "id": "vid-4",
+      "title": "Evaluate Common Logarithms Without a Calculator",
+      "url": "https://www.youtube.com/watch?v=cUXJ6j7jWz0",
+      "description": "Evaluating common (base 10) logarithms by inspection and writing the result as an exponential equation.",
+      "category": "evaluating",
+      "relatedFaqs": [
+        "faq-3",
+        "faq-8",
+        "faq-9"
+      ]
+    },
+    {
+      "id": "vid-5",
+      "title": "Evaluate Common Logarithms on a Calculator",
+      "url": "https://youtu.be/85ic6efQ6E8",
+      "description": "Using a calculator to evaluate common logarithms that don't come out to a clean whole number.",
+      "category": "evaluating",
+      "relatedFaqs": [
+        "faq-10"
+      ]
+    },
+    {
+      "id": "vid-6",
+      "title": "Evaluate Natural Logarithms on the Calculator",
+      "url": "https://youtu.be/Rpounu3epSc",
+      "description": "Using a calculator's LN key to evaluate natural logarithms.",
+      "category": "evaluating",
+      "relatedFaqs": [
+        "faq-4",
+        "faq-10"
+      ]
+    }
+  ],
+  "apps": [
+    {
+      "id": "app-1",
+      "title": "Log Rules",
+      "url": "https://logrules.netlify.app/",
+      "description": "Practice with logarithm rules and properties, likely including converting between logarithmic and exponential form.",
+      "relatedFaqs": [
+        "faq-2",
+        "faq-6",
+        "faq-7"
+      ]
+    },
+    {
+      "id": "app-2",
+      "title": "Mental Math Log Quest",
+      "url": "https://logarithmicmaster.netlify.app/",
+      "description": "Quick mental-math style practice evaluating logarithms by inspection.",
+      "relatedFaqs": [
+        "faq-8",
+        "faq-9"
+      ]
+    }
+  ],
+  "prompts": {
+    "guided": [
+      {
+        "id": "prompt-1",
+        "title": "Understand What a Logarithm Is Asking",
+        "prompt": "I'm learning what a logarithm actually means. Give me a few logarithm expressions and ask me to rephrase each one as a question (\"what power do I raise the base to, to get this number?\") before I try to evaluate it. Check my rephrasing and my final answers."
+      },
+      {
+        "id": "prompt-2",
+        "title": "Practice Converting Between Log and Exponential Form",
+        "prompt": "I'm learning to convert between logarithmic and exponential form. Give me an equation in one form and ask me to convert it to the other, identifying the base, exponent, and result each time. Give me several more practice problems going both directions and check my work."
+      },
+      {
+        "id": "prompt-3",
+        "title": "Practice Evaluating Logarithms by Inspection",
+        "prompt": "I'm practicing evaluating logarithms without a calculator. Give me a logarithm expression and walk me through asking the right question to evaluate it mentally. Include at least one example where the answer is negative and one where the argument is a fraction, and check my reasoning each time."
+      },
+      {
+        "id": "prompt-4",
+        "title": "Practice Finding the Domain of Logarithmic Functions",
+        "prompt": "I'm learning to find the domain of logarithmic functions like log base 3 of (2x-4). Give me a similar function and walk me through setting up and solving the inequality to find the domain. Then give me a few more practice problems of increasing difficulty."
+      },
+      {
+        "id": "prompt-5",
+        "title": "Connect Logarithms to Inverse Functions from FN6",
+        "prompt": "I've learned that logarithmic and exponential functions are inverses, connecting back to what I learned in FN6. Can you help me see this concretely — show me a specific exponential function and its logarithmic inverse, and walk me through verifying they're actually inverses using composition, the same way we did in FN6?"
+      }
+    ],
+    "open": [
+      {
+        "id": "open-1",
+        "title": "Create Your Own",
+        "prompt": "Use the AI tool of your choice. Start by describing what you're confused about or curious about from Section EL3 (Introduction to Logarithms). Ask the AI to help you explore that idea. Share what you learned and what surprised you."
+      }
+    ]
+  }
+}
