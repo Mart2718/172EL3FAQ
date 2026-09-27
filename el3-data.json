@@ -214,5 +214,238 @@
         "prompt": "Use the AI tool of your choice. Start by describing what you're confused about or curious about from Section EL3 (Introduction to Logarithms). Ask the AI to help you explore that idea. Share what you learned and what surprised you."
       }
     ]
-  }
+  },
+  "paths": [
+    {
+      "id": "EL3",
+      "label": "EL3: Introduction to Logarithms",
+      "sectionLabel": "EL3, Introduction to Logarithms",
+      "intro": "Builds to the EL3 check: converting between exponential and logarithmic form, and evaluating logarithms, including common and natural logs.",
+      "graphs": {
+        "D0": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 420 190\" width=\"420\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Diagram: log base b of a equals c is the same statement as b to the c equals a. The base b stays the base, the logarithm c is the exponent, and a is the result.\"><text x=\"20\" y=\"22\" class=\"g-label\" style=\"font-size:12px\">Logarithmic form</text><text x=\"40\" y=\"62\" class=\"lg-eq\">log<tspan class=\"lg-b\" dy=\"8\" font-size=\"18\">b</tspan><tspan dy=\"-8\"> </tspan><tspan class=\"lg-a\">a</tspan> = <tspan class=\"lg-c\">c</tspan></text><text x=\"20\" y=\"122\" class=\"g-label\" style=\"font-size:12px\">Exponential form</text><text x=\"40\" y=\"164\" class=\"lg-eq\"><tspan class=\"lg-b\">b</tspan><tspan class=\"lg-c\" dy=\"-14\" font-size=\"18\">c</tspan><tspan dy=\"14\"> = </tspan><tspan class=\"lg-a\">a</tspan></text><g class=\"lg-key\" font-size=\"12\"><text x=\"250\" y=\"56\"><tspan class=\"lg-b\">■</tspan> base stays the base</text><text x=\"250\" y=\"80\"><tspan class=\"lg-c\">■</tspan> the log IS the exponent</text><text x=\"250\" y=\"104\"><tspan class=\"lg-a\">■</tspan> the argument is the result</text></g></svg></div>",
+        "D1": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 420 190\" width=\"420\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Diagram: log base 2 of 32 equals 5 is the same statement as 2 to the 5th equals 32.\"><text x=\"20\" y=\"22\" class=\"g-label\" style=\"font-size:12px\">Logarithmic form</text><text x=\"40\" y=\"62\" class=\"lg-eq\">log<tspan class=\"lg-b\" dy=\"8\" font-size=\"18\">2</tspan><tspan dy=\"-8\"> </tspan><tspan class=\"lg-a\">32</tspan> = <tspan class=\"lg-c\">5</tspan></text><text x=\"20\" y=\"122\" class=\"g-label\" style=\"font-size:12px\">Exponential form</text><text x=\"40\" y=\"164\" class=\"lg-eq\"><tspan class=\"lg-b\">2</tspan><tspan class=\"lg-c\" dy=\"-14\" font-size=\"18\">5</tspan><tspan dy=\"14\"> = </tspan><tspan class=\"lg-a\">32</tspan></text><g class=\"lg-key\" font-size=\"12\"><text x=\"250\" y=\"56\"><tspan class=\"lg-b\">■</tspan> base stays the base</text><text x=\"250\" y=\"80\"><tspan class=\"lg-c\">■</tspan> the log IS the exponent</text><text x=\"250\" y=\"104\"><tspan class=\"lg-a\">■</tspan> the argument is the result</text></g></svg></div>",
+        "D2": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 420 190\" width=\"420\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Diagram: 3 to the 4th equals 81 rewritten as log base 3 of 81 equals 4.\"><text x=\"20\" y=\"22\" class=\"g-label\" style=\"font-size:12px\">Logarithmic form</text><text x=\"40\" y=\"62\" class=\"lg-eq\">log<tspan class=\"lg-b\" dy=\"8\" font-size=\"18\">3</tspan><tspan dy=\"-8\"> </tspan><tspan class=\"lg-a\">81</tspan> = <tspan class=\"lg-c\">4</tspan></text><text x=\"20\" y=\"122\" class=\"g-label\" style=\"font-size:12px\">Exponential form</text><text x=\"40\" y=\"164\" class=\"lg-eq\"><tspan class=\"lg-b\">3</tspan><tspan class=\"lg-c\" dy=\"-14\" font-size=\"18\">4</tspan><tspan dy=\"14\"> = </tspan><tspan class=\"lg-a\">81</tspan></text><g class=\"lg-key\" font-size=\"12\"><text x=\"250\" y=\"56\"><tspan class=\"lg-b\">■</tspan> base stays the base</text><text x=\"250\" y=\"80\"><tspan class=\"lg-c\">■</tspan> the log IS the exponent</text><text x=\"250\" y=\"104\"><tspan class=\"lg-a\">■</tspan> the argument is the result</text></g></svg></div>",
+        "D3": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 420 190\" width=\"420\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Diagram: log base 2 of 16 equals 4 rewritten as 2 to the 4th equals 16.\"><text x=\"20\" y=\"22\" class=\"g-label\" style=\"font-size:12px\">Logarithmic form</text><text x=\"40\" y=\"62\" class=\"lg-eq\">log<tspan class=\"lg-b\" dy=\"8\" font-size=\"18\">2</tspan><tspan dy=\"-8\"> </tspan><tspan class=\"lg-a\">16</tspan> = <tspan class=\"lg-c\">4</tspan></text><text x=\"20\" y=\"122\" class=\"g-label\" style=\"font-size:12px\">Exponential form</text><text x=\"40\" y=\"164\" class=\"lg-eq\"><tspan class=\"lg-b\">2</tspan><tspan class=\"lg-c\" dy=\"-14\" font-size=\"18\">4</tspan><tspan dy=\"14\"> = </tspan><tspan class=\"lg-a\">16</tspan></text><g class=\"lg-key\" font-size=\"12\"><text x=\"250\" y=\"56\"><tspan class=\"lg-b\">■</tspan> base stays the base</text><text x=\"250\" y=\"80\"><tspan class=\"lg-c\">■</tspan> the log IS the exponent</text><text x=\"250\" y=\"104\"><tspan class=\"lg-a\">■</tspan> the argument is the result</text></g></svg></div>"
+      },
+      "stages": [
+        {
+          "stage": "Get ready",
+          "desc": "Two quick skills EL3 leans on. Skip any you already have.",
+          "stops": [
+            {
+              "id": "el3-g1",
+              "title": "Write numbers as powers",
+              "target": "Rewrite numbers like \\(\\tfrac{1}{8}\\), \\(\\sqrt{5}\\), and \\(\\tfrac{1}{\\sqrt{3}}\\) as powers of a base: \\(\\tfrac{1}{b^n} = b^{-n}\\) and \\(\\sqrt{b} = b^{1/2}\\).",
+              "cold": "Write each as a power: (a) \\(\\tfrac{1}{8}\\) as a power of 2 (b) \\(\\sqrt{5}\\) as a power of 5",
+              "coldPlain": "Write each as a power: (a) 1/8 as a power of 2, (b) sqrt(5) as a power of 5.",
+              "coldA": "(a) \\(\\tfrac{1}{8} = \\tfrac{1}{2^3} = 2^{-3}\\) (b) \\(\\sqrt{5} = 5^{1/2}\\)",
+              "solution": "(a) 8 = 2^3, and a reciprocal flips the sign of the exponent: 1/8 = 2^(-3). (b) A square root is the 1/2 power: sqrt(5) = 5^(1/2).",
+              "mistake": "Writing 1/8 as 2^(1/3), mixing up \"reciprocal\" (negative exponent) with \"root\" (fraction exponent).",
+              "again": "Write each as a power: (a) \\(\\tfrac{1}{25}\\) of 5 (b) \\(\\tfrac{1}{\\sqrt{3}}\\) of 3 (c) 49 of 7",
+              "againA": "(a) \\(5^{-2}\\) (b) \\(3^{-1/2}\\) (c) \\(7^2\\)",
+              "reflect": "What does a negative exponent do? What does a fraction exponent do?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                }
+              ]
+            },
+            {
+              "id": "el3-g2",
+              "title": "Find the missing exponent",
+              "target": "Solve equations like \\(2^x = 32\\) by asking \"what power of 2 gives 32?\"",
+              "cold": "Solve \\(2^x = 32\\) and \\(3^x = \\tfrac{1}{9}\\).",
+              "coldPlain": "Solve 2^x = 32 and 3^x = 1/9.",
+              "coldA": "\\(2^5 = 32\\), so \\(x = 5\\). \\(3^{-2} = \\tfrac{1}{9}\\), so \\(x = -2\\).",
+              "solution": "Count up powers of 2: 2, 4, 8, 16, 32, which is 2^5, so x = 5. For 1/9: 9 = 3^2 and the reciprocal makes the exponent negative, so x = -2.",
+              "mistake": "Dividing 32 by 2 instead of asking which power.",
+              "again": "Solve \\(10^x = 1000\\) and \\(4^x = 2\\).",
+              "againA": "\\(x = 3\\) and \\(x = \\tfrac{1}{2}\\) (because \\(\\sqrt{4} = 2\\)).",
+              "reflect": "This question, \"what exponent?\", has a name you will learn next. What do you think it is?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "Learn the skills",
+          "desc": "What a logarithm means, then one stop per part of the EL3 check, plus common and natural logs from the objective.",
+          "stops": [
+            {
+              "id": "el3-t1",
+              "title": "What a logarithm means",
+              "target": "\\(\\log_b a\\) is the <strong>exponent</strong> you put on \\(b\\) to get \\(a\\). So \\(\\log_b a = c\\) means exactly the same thing as \\(b^c = a\\).",
+              "explain": "<h4>One statement, two forms</h4><p>A logarithm answers the question \"what exponent?\" The colors show which piece goes where.</p>[[graph:D0]]",
+              "cold": "What is \\(\\log_2 32\\)? Say the question it asks in words.",
+              "coldPlain": "What is log base 2 of 32? Say the question it asks in words.",
+              "coldA": "\"2 to what power is 32?\" Since \\(2^5 = 32\\), \\(\\log_2 32 = 5\\).[[graph:D1]]",
+              "solution": "Read log base 2 of 32 as \"2 to what power gives 32?\" 2^5 = 32, so the log is 5. The log is always an exponent.",
+              "mistake": "Dividing 32 by 2, or thinking log_2 32 means log times 2 times 32.",
+              "again": "What is \\(\\log_3 81\\)? What is \\(\\log_5 5\\)?",
+              "againA": "\\(\\log_3 81 = 4\\) because \\(3^4 = 81\\). \\(\\log_5 5 = 1\\) because \\(5^1 = 5\\).",
+              "reflect": "Complete the sentence: \"A logarithm is an ____.\"",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "el3-t2",
+              "title": "Exponential form to logarithmic form",
+              "target": "Rewrite \\(b^c = a\\) as \\(\\log_b a = c\\): the base stays the base, the exponent becomes the answer, and the result goes inside the log. This works with letters too.",
+              "cold": "Write \\(3^4 = 81\\) in logarithmic form.",
+              "coldPlain": "Write 3^4 = 81 in logarithmic form.",
+              "coldA": "\\(\\log_3 81 = 4\\).[[graph:D2]]",
+              "solution": "Base 3 stays the base. The exponent 4 is what the log equals. The result 81 goes inside: log_3 81 = 4.",
+              "mistake": "Writing log_3 4 = 81 (putting the exponent inside the log).",
+              "again": "Write in logarithmic form: (a) \\(m^7 = z\\) (b) \\(5^a = b\\)",
+              "againA": "(a) \\(\\log_m z = 7\\) (b) \\(\\log_5 b = a\\). Same pattern: base stays, exponent is the answer.",
+              "stretch": "Write \\(x^y = 9\\) in logarithmic form.",
+              "stretchA": "\\(\\log_x 9 = y\\).",
+              "reflect": "With letters, how do you decide which letter is the base?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "el3-t3",
+              "title": "Logarithmic form to exponential form",
+              "target": "Rewrite \\(\\log_b a = c\\) as \\(b^c = a\\): the base stays the base, and the answer to the log becomes the exponent.",
+              "cold": "Write \\(\\log_2 16 = 4\\) in exponential form.",
+              "coldPlain": "Write log_2 16 = 4 in exponential form.",
+              "coldA": "\\(2^4 = 16\\).[[graph:D3]]",
+              "solution": "The base 2 stays the base; the log value 4 becomes the exponent; the argument 16 is the result: 2^4 = 16.",
+              "mistake": "Writing 16^4 = 2 or 4^2 = 16.",
+              "again": "Write in exponential form: (a) \\(\\log_p 8 = q\\) (b) \\(\\log_c d = 6\\)",
+              "againA": "(a) \\(p^q = 8\\) (b) \\(c^6 = d\\)",
+              "reflect": "How can you check your conversion by reading it aloud?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "el3-t4",
+              "title": "Evaluate a logarithm",
+              "target": "Evaluate \\(\\log_b a\\) by writing \\(a\\) as a power of \\(b\\); that power is the answer. Answers can be negative or fractions.",
+              "cold": "Evaluate \\(\\log_4 64\\) and \\(\\log_5\\left(\\tfrac{1}{25}\\right)\\).",
+              "coldPlain": "Evaluate log_4 64 and log_5 (1/25).",
+              "coldA": "\\(64 = 4^3\\), so \\(\\log_4 64 = 3\\). \\(\\tfrac{1}{25} = 5^{-2}\\), so \\(\\log_5 \\tfrac{1}{25} = -2\\).",
+              "solution": "Write the argument as a power of the base. 64 = 4^3 gives 3. 1/25 = 1/5^2 = 5^(-2) gives -2.",
+              "mistake": "Thinking a log cannot be negative. A negative log just means the argument is a fraction between 0 and 1.",
+              "again": "Evaluate \\(\\log_9 3\\) and \\(\\log_7\\left(\\tfrac{1}{\\sqrt{7}}\\right)\\).",
+              "againA": "\\(3 = 9^{1/2}\\), so \\(\\log_9 3 = \\tfrac{1}{2}\\). \\(\\tfrac{1}{\\sqrt{7}} = 7^{-1/2}\\), so \\(\\log_7 \\tfrac{1}{\\sqrt{7}} = -\\tfrac{1}{2}\\).",
+              "reflect": "How does the \"Write numbers as powers\" stop help here?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "el3-t5",
+              "title": "Common and natural logarithms",
+              "target": "\\(\\log x\\) with no base means base 10 (the common log). \\(\\ln x\\) means base \\(e\\) (the natural log). Evaluate them exactly when you can, or with a calculator.",
+              "cold": "Evaluate \\(\\log 1000\\), \\(\\ln\\left(e^2\\right)\\), and \\(\\log 0.01\\).",
+              "coldPlain": "Evaluate log 1000, ln(e^2), and log 0.01.",
+              "coldA": "\\(\\log 1000 = 3\\) (\\(10^3 = 1000\\)). \\(\\ln e^2 = 2\\). \\(\\log 0.01 = -2\\) (\\(10^{-2} = 0.01\\)).",
+              "solution": "log means base 10: 1000 = 10^3, so 3; 0.01 = 1/100 = 10^(-2), so -2. ln means base e: ln(e^2) asks \"e to what power is e^2?\", which is 2. For values that are not exact powers, like ln 5, use the calculator: about 1.6094.",
+              "mistake": "Assuming log with no base means base e, or typing ln when you mean log.",
+              "again": "Evaluate \\(\\log\\tfrac{1}{10}\\), \\(\\ln\\tfrac{1}{e}\\), and \\(\\ln\\sqrt{e}\\).",
+              "againA": "\\(-1\\), \\(-1\\), and \\(\\tfrac{1}{2}\\).",
+              "reflect": "Which base does each button on your calculator use?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "Put it together",
+          "desc": "A practice check in the same three-part format as the EL3 CheckIt exercise.",
+          "stops": [
+            {
+              "id": "el3-f1",
+              "title": "Practice check",
+              "target": "Convert between exponential and logarithmic form, and evaluate a logarithm.",
+              "cold": "(a) Write \\(a^b = 6\\) in logarithmic form.<br>(b) Write \\(\\log_x 8 = y\\) in exponential form.<br>(c) Evaluate \\(\\log_6\\left(\\tfrac{1}{36}\\right)\\).",
+              "coldPlain": "(a) Write a^b = 6 in logarithmic form. (b) Write log_x 8 = y in exponential form. (c) Evaluate log_6 (1/36).",
+              "coldA": "(a) \\(\\log_a 6 = b\\) (b) \\(x^y = 8\\) (c) \\(\\tfrac{1}{36} = 6^{-2}\\), so \\(-2\\).",
+              "solution": "(a) Base a stays; exponent b is the answer; 6 goes inside: log_a 6 = b. (b) Base x stays; y becomes the exponent: x^y = 8. (c) 36 = 6^2, and the reciprocal gives 6^(-2), so the log is -2.",
+              "mistake": "Swapping which letter goes inside the log, or giving +2 in part (c).",
+              "again": "(a) Write \\(7^c = d\\) in logarithmic form.<br>(b) Write \\(\\log_m n = 10\\) in exponential form.<br>(c) Evaluate \\(\\log_{10}\\left(\\tfrac{1}{\\sqrt{10}}\\right)\\).",
+              "againA": "(a) \\(\\log_7 d = c\\) (b) \\(m^{10} = n\\) (c) \\(10^{-1/2}\\), so \\(-\\tfrac{1}{2}\\).",
+              "reflect": "Which direction of conversion is easier for you, and what will you check on the other one?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "AI Prompts",
+                  "tab": "tab-prompts"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
