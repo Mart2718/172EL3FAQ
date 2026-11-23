@@ -76,12 +76,6 @@
       "answer": "<em>Extension:</em> finding a domain goes beyond the EL3 CheckIt exercise (it is part of EL4). Set the argument (everything inside the logarithm) greater than zero, then solve the resulting inequality for x.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find the domain of \\( \\log_3(2x-4) \\).</p><p class=\"math-line\">Set up the inequality: \\( 2x-4 > 0 \\)</p><p class=\"math-line\">Solve: \\( 2x>4 \\) &rarr; \\( x>2 \\)</p><p class=\"math-line\" style=\"margin-top:0.5rem;\">Domain: \\( (2,\\infty) \\)</p><p class=\"math-line\" style=\"margin-top:0.5rem;\">Watch the sign: for \\( \\log_3(6-2x) \\), \\( 6-2x>0 \\) gives \\( -2x>-6 \\), and dividing by \\( -2 \\) flips the inequality: \\( x<3 \\). Domain: \\( (-\\infty,3) \\).</p></div>"
     },
     {
-      "id": "faq-13",
-      "category": "connections",
-      "question": "How does the domain and range of a logarithmic function connect to what we learned about inverse functions in FN6?",
-      "answer": "<em>Extension:</em> this connection goes beyond the EL3 CheckIt exercise. It is FN6's domain/range swap rule (see the FN6 FAQ on the domain and range of an inverse), applied directly: \\( f(x)=b^x \\) and \\( g(x)=\\log_b(x) \\) are inverses, so the domain of \\( b^x \\) (all real numbers) is the range of \\( \\log_b(x) \\), and the range of \\( b^x \\), \\( (0,\\infty) \\), is the domain of \\( \\log_b(x) \\). Nothing new to learn here — just the same inverse-function rule from FN6, applied to this pair of functions."
-    },
-    {
       "id": "faq-14",
       "category": "connections",
       "question": "Why do logarithms matter beyond solving exponential equations?",
@@ -371,6 +365,8 @@
               "mistake": "Thinking a log cannot be negative. With a base greater than 1, as on every EL3 CheckIt problem, a negative log just means the number inside is strictly between 0 and 1.",
               "again": "Evaluate \\(\\log_9 3\\) and \\(\\log_7\\left(\\tfrac{\\sqrt{7}}{7}\\right)\\). (CheckIt may print the second number as \\(\\tfrac{1}{7}\\sqrt{7}\\).)",
               "againA": "\\(3 = \\sqrt{9} = 9^{1/2}\\), so \\(\\log_9 3 = \\tfrac{1}{2}\\). \\(\\tfrac{\\sqrt{7}}{7} = \\tfrac{1}{\\sqrt{7}} = 7^{-1/2}\\), so \\(\\log_7 \\tfrac{\\sqrt{7}}{7} = -\\tfrac{1}{2}\\).",
+              "stretch": "Evaluate \\(\\log_8\\left(2\\sqrt{2}\\right)\\) and \\(\\log_8\\left(\\tfrac{\\sqrt{2}}{4}\\right)\\). (CheckIt prints the second number as \\(\\tfrac{1}{4}\\sqrt{2}\\).)",
+              "stretchA": "\\(2\\sqrt{2} = \\sqrt{8} = 8^{1/2}\\), so the first is \\(\\tfrac{1}{2}\\). \\(\\tfrac{\\sqrt{2}}{4} = \\tfrac{1}{2\\sqrt{2}} = \\tfrac{1}{\\sqrt{8}} = 8^{-1/2}\\), so the second is \\(-\\tfrac{1}{2}\\).",
               "reflect": "How does the \"Write numbers as powers\" stop help here?",
               "related": [
                 {
